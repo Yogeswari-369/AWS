@@ -1,6 +1,14 @@
 # AWS_Notes
 
-Self Learning Notes & Practical Demo -  **https://gregarious-dedication-2fd.notion.site/AWS-ba6494ae15a6477984f0fea8cbc67a39?pvs=4**
+
+
+
+Self Learning Notes & Practical Demo about AWS
+**https://gregarious-dedication-2fd.notion.site/AWS-ba6494ae15a6477984f0fea8cbc67a39?pvs=4**
+
+
+
+
 
 
 ----- List of the contents ------
