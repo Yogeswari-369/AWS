@@ -11,7 +11,7 @@ Notes & Practical Demo about AWS
 
 
 
------ List of the contents ------
+----- List of the contents -----
 
 1) Basic info about Cloud Computing
 2) Cloud Servies & Deployment Models
