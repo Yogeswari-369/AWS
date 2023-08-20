@@ -18,7 +18,7 @@ Notes & Practical Demo about AWS
 3) Cloud Architecture & Components
 4) Cloud Security & Compilance
 5) Cloud Service Provicers
-6) AWS Services ( IAM , EC2, )
+6) AWS Services ( IAM , EC2 , VPC , )
 
 
 
