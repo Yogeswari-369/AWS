@@ -3,7 +3,9 @@
 This python script increase and decrease the CPU utilization on the EC2 instance. By using Cloud Watch we can track those metrics.
 Once it exceeds the specified limitation, it triggers the alarm and notified the issue by the email.
 
-These steps for Alarm configuration
+
+We can monitoring the CPU utiization under Cloud Watch ---> Metrics ---> select an instanced based on the instance_id
+And for Alarm configuration, we have to follow these steps.
 
 Step 1: Specify Metric and condtion
            Here, I choose Metric as EC2 instance and select either per_instance or across all the instances. Select the instance based 
