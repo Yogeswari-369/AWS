@@ -1,0 +1,14 @@
+++++ Default_Metrics +++++
+
+This python script increase and decrease the CPU utilization on the EC2 instance. By using Cloud Watch we can track those metrics.
+Once it exceeds the specified limitation, it triggers the alarm and notified the issue by the email.
+
+Step 1: Specify Metric and condtion
+           Metric is Choose EC2 instance and select either per_instance or across all the instances. Select the instance based 
+           on the instance_id. And the condition is CPU utilization exceeds >= 50 and statistic time as Average and period of time is 5 minute
+Step 2 : Configure action
+	        Sending notification via SNS(simple notification service) / create topic / ARN topic
+	        In create topic, provide the email
+Step 3 : Add name & Description
+      	  Provide alarm name & write some description about the alarm
+Step 4 : Preview & create
