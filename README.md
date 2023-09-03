@@ -22,7 +22,7 @@
 7) Command Line Interface (CLI)
 8) Cloud Formation Template (CFT)
 9) AWS CodeCommit , CodePipeline, CodeBuild, CodeDeploy
-10) End to End CICD Pipeline - AWS 
+10) End to End CICD Pipeline { GitHub, CodeBuild, CodePipeline, CodeDeploy } 
 
 
 
