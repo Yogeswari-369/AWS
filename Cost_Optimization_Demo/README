@@ -5,4 +5,5 @@ We'll create a Lambda function that identifies EBS snapshots that are no longer 
 - For each snapshot, it checks if the associated volume (if exists) is not associated with any active instance. If it finds a stale snapshot, it deletes it, effectively optimizing storage costs.
 
 
-https://boto3.amazonaws.com/v1/documentation/api/1.9.42/reference/services/ec2.html
+Reference : https://boto3.amazonaws.com/v1/documentation/api/1.9.42/reference/services/ec2.html
+
