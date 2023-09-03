@@ -1,3 +1,8 @@
+AWS CloudWatch is a powerful monitoring and observability service provided by Amazon Web Services. 
+CloudWatch collects and tracks metrics, collects and monitors log files, and sets alarms to alert you on certain conditions.
+
+
+
 ++++ Default_Metrics +++++
 
 This python script increase and decrease the CPU utilization on the EC2 instance. By using Cloud Watch we can track those metrics.
