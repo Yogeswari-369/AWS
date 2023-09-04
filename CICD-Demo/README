@@ -1,6 +1,6 @@
 ++++++++++  Step 1 : Set Up GitHub Repository ++++++++++
 
-The first step is to set up a GitHub repository to store our Python application's source code. 
+The first step is to set up a GitHub repository to store the Python application's source code. 
 
 - Go to github.com and sign in to your account.
 - Click on the "+" button in the top-right corner and select "New repository."
@@ -8,12 +8,11 @@ The first step is to set up a GitHub repository to store our Python application'
 - Choose the appropriate visibility option based on your needs.
 - Initialize the repository with a README file.
 - Click on the "Create repository" button to create your new GitHub repository.
-- Now, we have our repository set up, we can move on to the next step.
 
 
 ++++++++++   Step 2 : AWS CodePipeLine  ++++++++++
 
-We'll create an AWS CodePipeline to automate the continuous integration process for our Python application. 
+Create an AWS CodePipeline to automate the continuous integration process for  Python application. 
 AWS CodePipeline will orchestrate the flow of changes from our GitHub repository to the deployment of our application. 
 
 - Go to the AWS Management Console and navigate to the AWS CodePipeline service.
@@ -33,7 +32,7 @@ AWS CodePipeline will orchestrate the flow of changes from our GitHub repository
 
 ++++++++++   Step 3 : AWS CodeBuild  ++++++++++
 
-In this step, we'll configure AWS CodeBuild to build our Python application based on the specifications we define.
+Configure AWS CodeBuild to build  Python application based on the specifications we define.
 CodeBuild will take care of building and packaging our application for deployment. Follow these steps:
 
 - In the AWS Management Console, navigate to the AWS CodeBuild service.
@@ -49,7 +48,7 @@ CodeBuild will take care of building and packaging our application for deploymen
 +++++++++++ Step 4 : AWS CodeDeploy ++++++++++
 
 
-In this final step, we'll trigger the CI process by making a change to our GitHub repository. 
+Trigger the CI process by making a change to  GitHub repository. 
 
 - Go to your GitHub repository and make a change to your Python application's source code. It could be a bug fix, a new feature, or any other change you want to introduce.
 - Commit and push your changes to the branch configured in your AWS CodePipeline.
