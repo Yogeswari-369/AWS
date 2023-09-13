@@ -34,17 +34,13 @@ For better understanding, consider this cases
 
 **CASE 3**
 - In SG , port 8000 is allowed
-- In NACL
-            At rule number : 110  **Allow all traffic**
-  
-            At rule number : 100  **Deny port 8000**
+- In NACL , At rule number : 110  **Allow all traffic**  and At rule number : 100  **Deny port 8000**
 - Then output is not displayed.
 
 **CASE 4**
 - In SG , port 8000 is allowed
-- In NACL
-            At rule number : 100  **Allow all traffic**
+- In NACL, At rule number : 100  **Allow all traffic** and At rule number : 200  **Deny port 8000**
+- Then output is displayed.
+
   
-            At rule number : 200  **Deny port 8000**
-  - Then output is displayed.
   ![image](https://github.com/Yogeswari-369/AWS_Projects/assets/85894796/9d37994f-27c2-449d-a9be-928fc93812e8)
