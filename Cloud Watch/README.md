@@ -22,5 +22,9 @@ Step 3 : Add name & Description
       	  Provide alarm name & write some description about the alarm
 Step 4 : Preview & create
 
+![image](https://github.com/Yogeswari-369/AWS_Projects/assets/85894796/a88aa399-45d6-4fb4-bd16-9f201957e3d8)
+![image](https://github.com/Yogeswari-369/AWS_Projects/assets/85894796/3387e657-89ff-48ab-856b-a9e08afb7591)
+![image](https://github.com/Yogeswari-369/AWS_Projects/assets/85894796/f591b431-6859-4c6e-8c6f-e1da3a905ce2)
+![image](https://github.com/Yogeswari-369/AWS_Projects/assets/85894796/93fde424-c0b2-40c2-aa3d-aac6c1e932aa)
 
 
