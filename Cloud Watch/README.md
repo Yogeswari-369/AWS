@@ -15,12 +15,16 @@ And for Alarm configuration, we have to follow these steps.
 Step 1: Specify Metric and condtion
            Here, I choose Metric as EC2 instance and select either per_instance or across all the instances. Select the instance based 
            on the instance_id. And the condition is CPU utilization exceeds >= 50 and statistic time as Average and period of time is 5 minute
+	   
 Step 2 : Configure action
 	        Sending notification via SNS(simple notification service) / create topic / ARN topic
 	        In create topic, provide the email
+	 
 Step 3 : Add name & Description
       	  Provide alarm name & write some description about the alarm
+	 
 Step 4 : Preview & create
+
 
 ![image](https://github.com/Yogeswari-369/AWS_Projects/assets/85894796/a88aa399-45d6-4fb4-bd16-9f201957e3d8)
 ![image](https://github.com/Yogeswari-369/AWS_Projects/assets/85894796/3387e657-89ff-48ab-856b-a9e08afb7591)
